@@ -65,7 +65,7 @@ namespace SistemaVerduleria
         }
         private void LimpiaCampos()
         {
-            //clears fields post processing
+            //clears fields post processing.
             txtNombreProducto.Text = "";
             txtCantidad.Text = "";
             txtPrecio.Text = "";
