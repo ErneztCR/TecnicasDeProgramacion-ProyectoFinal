@@ -14,6 +14,7 @@ namespace BLL
     {
         public void InsertaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)
         {
+            // Agrega un productoo
 
             MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
             TipoProductoDAL.InsertaTipoProducto(Nombre, TipoProducto, TipoPrecio, Cantidad, Precio);
@@ -22,6 +23,7 @@ namespace BLL
 
         public void ActualizaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)
         {
+            //Realiza cambios a los productos
 
             MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
             TipoProductoDAL.ActualizaTipoProducto(Nombre, TipoProducto, TipoPrecio, Cantidad, Precio);
@@ -30,6 +32,8 @@ namespace BLL
 
         public bool ValidaExistenciaProducto(string nombre)
         {
+            //Determina si hay existencias
+
             MantenimientoTipoProductoDAL Producto = new MantenimientoTipoProductoDAL();
 
             return Producto.ValidaExistenciaProducto(nombre);
