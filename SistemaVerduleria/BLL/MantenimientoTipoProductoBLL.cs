@@ -8,6 +8,8 @@ using DAL;
 
 namespace BLL
 {
+
+    //Capa de Lógica empresarial BLL
     public class MantenimientoTipoProductoBLL
     {
         public void InsertaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)

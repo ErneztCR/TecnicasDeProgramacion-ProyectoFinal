@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 
 namespace DAL
 {
+    //Capa de acceso a datos DAL
     public class MantenimientoTipoProductoDAL
     {
         public void InsertaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)
