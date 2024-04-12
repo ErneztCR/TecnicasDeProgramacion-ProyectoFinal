@@ -9,3 +9,9 @@ C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\DAL\obj\Debu
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\DAL\obj\Debug\DAL.dll
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\DAL\obj\Debug\DAL.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\bin\Debug\DAL.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\bin\Debug\DAL.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.pdb

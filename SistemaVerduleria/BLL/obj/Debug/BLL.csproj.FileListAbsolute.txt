@@ -15,3 +15,12 @@ C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\BLL\obj\Debu
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\BLL\obj\Debug\BLL.dll
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\BLL\obj\Debug\BLL.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\BLL.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\BLL.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\DAL.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\DAL.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.pdb

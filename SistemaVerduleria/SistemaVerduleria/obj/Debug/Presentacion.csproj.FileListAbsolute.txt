@@ -153,3 +153,7 @@ C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\SistemaVerdu
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\SistemaVerduleria\obj\Debug\Presentacion.csproj.CopyComplete
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\SistemaVerduleria\obj\Debug\SistemaVerduleria.dll
 C:\Users\Daniel\Downloads\Mini Sistema Verdureria\SistemaVerduleria\SistemaVerduleria\obj\Debug\SistemaVerduleria.pdb
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\SistemaVerduleria\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\SistemaVerduleria\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\SistemaVerduleria\obj\Debug\SistemaVerduleria.dll
+C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\SistemaVerduleria\obj\Debug\SistemaVerduleria.pdb
