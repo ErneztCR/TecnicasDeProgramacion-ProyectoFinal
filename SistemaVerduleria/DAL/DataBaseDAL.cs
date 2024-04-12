@@ -13,6 +13,8 @@ namespace DAL
         public SqlConnection Conexion { get; set; }
         public SqlConnection AbreConexionSQL()
         {
+            //Conexion a base de datos
+
             string ser = "DESKTOP-3TAVB1D\\SQLEXPRESS";
             string database = "SistemaVerduleria";
             string us = "sa";
