@@ -16,12 +16,12 @@ namespace SistemaVerduleria
 
         protected void btnGuardar_Click(object sender, EventArgs e)
         {
-            //Variables necesarias para las alertas
+            //Variables required for alerts
             Type cstype = this.GetType();
             ClientScriptManager cs = Page.ClientScript;
             string cstext = "";
 
-            //Valida que todos los campos estén completados
+            //Validate that all fields are completed
             if ((!string.IsNullOrEmpty(txtNombreProducto.Text)) && (!string.IsNullOrEmpty(txtNombreProducto.Text)) &&
                    (!string.IsNullOrEmpty(txtCantidad.Text)) && (ListaTipoPrecio.SelectedValue != "---Seleccione una Opción---") && (ListaTipoProducto.SelectedValue != "---Seleccione una Opción---"))
             {
@@ -30,14 +30,14 @@ namespace SistemaVerduleria
                 int CantidadTemp = Convert.ToInt32(txtCantidad.Text);
                 decimal PrecioTemp = Convert.ToDecimal(txtPrecio.Text);
 
-                //Valida que el tipo de producto ya exista
+                //Validates that the product type already exists
                 MantenimientoTipoProductoBLL ValidaTipoProductoBLL = new MantenimientoTipoProductoBLL();
                 bool Validacion = ValidaTipoProductoBLL.ValidaExistenciaProducto(txtNombreProducto.Text);
 
 
                 if (Validacion == true)
                 {
-                    //Actualiza el tipo de producto
+                    //Update the product type
                     MantenimientoTipoProductoBLL TipoProductoBLL = new MantenimientoTipoProductoBLL();
                     TipoProductoBLL.ActualizaTipoProducto(txtNombreProducto.Text, TipoProductoTemp, TipoPrecioTemp, CantidadTemp, PrecioTemp);
 
@@ -49,7 +49,7 @@ namespace SistemaVerduleria
                 }
                 else
                 {
-                    //Registra tipo de producto nuevo
+                    //Register new product type
                     MantenimientoTipoProductoBLL TipoProductoBLL = new MantenimientoTipoProductoBLL();
                     TipoProductoBLL.InsertaTipoProducto(txtNombreProducto.Text, TipoProductoTemp, TipoPrecioTemp, CantidadTemp, PrecioTemp);
 
@@ -65,7 +65,7 @@ namespace SistemaVerduleria
         }
         private void LimpiaCampos()
         {
-            //limpia los campos posterior al procesamiento
+            //clears fields post processing
             txtNombreProducto.Text = "";
             txtCantidad.Text = "";
             txtPrecio.Text = "";
