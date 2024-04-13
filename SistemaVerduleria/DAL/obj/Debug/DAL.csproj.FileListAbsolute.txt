@@ -15,3 +15,9 @@ C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.dll
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.pdb
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\bin\Debug\DAL.dll
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\bin\Debug\DAL.pdb
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.dll
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\DAL\obj\Debug\DAL.pdb

@@ -13,6 +13,8 @@ namespace DAL
         public SqlConnection Conexion { get; set; }
         public SqlConnection AbreConexionSQL()
         {
+            //Conexion a base de datos
+
             string ser = "DESKTOP-3TAVB1D\\SQLEXPRESS";
             string database = "SistemaVerduleria";
             string us = "sa";
@@ -23,7 +25,7 @@ namespace DAL
             try
             {
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(con);
-                builder.ConnectTimeout = 30;  // Establece el tiempo de espera de la conexión según tus necesidades
+                builder.ConnectTimeout = 30;  // Set the connection timeout according to your needs...
 
                 SqlConnection sqlConexion = new SqlConnection(builder.ConnectionString);
 

@@ -24,3 +24,12 @@ C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.dll
 C:\Git\Universidad\Tecnicas de programacion\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.pdb
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\BLL.dll
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\BLL.pdb
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\DAL.dll
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\bin\Debug\DAL.pdb
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.dll
+D:\Universidad UPI\ProyectoFinal\SistemaVerduleria\BLL\obj\Debug\BLL.pdb
