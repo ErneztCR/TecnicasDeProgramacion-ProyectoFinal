@@ -12,21 +12,21 @@ namespace BLL
     //Capa de Lógica empresarial BLL
     public class MantenimientoTipoProductoBLL
     {
-        public void InsertaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)
+        public void InsertaTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
         {
-            // Agrega un productoo
+            // Agrega un producto
 
             MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
-            TipoProductoDAL.InsertaTipoProducto(Nombre, TipoProducto, TipoPrecio, Cantidad, Precio);
+            TipoProductoDAL.InsertaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
 
         }
 
-        public void ActualizaTipoProducto(string Nombre, string TipoProducto, string TipoPrecio, int Cantidad, decimal Precio)
+        public void ActualizaTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
         {
             //Realiza cambios a los productos
 
             MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
-            TipoProductoDAL.ActualizaTipoProducto(Nombre, TipoProducto, TipoPrecio, Cantidad, Precio);
+            TipoProductoDAL.ActualizaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
 
         }
 
