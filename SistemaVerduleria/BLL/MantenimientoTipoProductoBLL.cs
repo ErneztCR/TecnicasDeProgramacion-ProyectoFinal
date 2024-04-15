@@ -1,34 +1,43 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data;
 using DAL;
 
 namespace BLL
 {
-    // Capa de Lógica Empresarial (BLL)
+
+    //Capa de Lógica empresarial BLL
     public class MantenimientoTipoProductoBLL
     {
-        private readonly MantenimientoTipoProductoDAL _tipoProductoDAL;
-
-        public MantenimientoTipoProductoBLL()
-        {
-            _tipoProductoDAL = new MantenimientoTipoProductoDAL();
-        }
-
-        public void InsertarTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
+        public void InsertaTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
         {
             // Agrega un producto
-            _tipoProductoDAL.InsertaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
+
+            MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
+            TipoProductoDAL.InsertaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
+
         }
 
-        public void ActualizarTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
+        public void ActualizaTipoProducto(string nombre, string tipoProducto, string tipoPrecio, int cantidad, decimal precio)
         {
-            // Realiza cambios a los productos
-            _tipoProductoDAL.ActualizaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
+            //Realiza cambios a los productos
+
+            MantenimientoTipoProductoDAL TipoProductoDAL = new MantenimientoTipoProductoDAL();
+            TipoProductoDAL.ActualizaTipoProducto(nombre, tipoProducto, tipoPrecio, cantidad, precio);
+
         }
 
-        public bool ValidarExistenciaProducto(string nombre)
+        public bool ValidaExistenciaProducto(string nombre)
         {
-            // Determina si hay existencias
-            return _tipoProductoDAL.ValidaExistenciaProducto(nombre);
+            //Determina si hay existencias
+
+            MantenimientoTipoProductoDAL Producto = new MantenimientoTipoProductoDAL();
+
+            return Producto.ValidaExistenciaProducto(nombre);
         }
     }
 }
+
