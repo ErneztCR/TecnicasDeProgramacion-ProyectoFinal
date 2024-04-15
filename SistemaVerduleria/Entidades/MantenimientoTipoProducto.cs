@@ -8,11 +8,11 @@ namespace Entidades
 {
     public class MantenimientoTipoProducto
     {
-        // Propiedades con nombres en PascalCase para seguir convenciones de estilo
-        public string Nombre { get; set; }
-        public string TipoProducto { get; set; }
-        public string TipoPrecio { get; set; }
-        public int Cantidad { get; set; }
-        public float Precio { get; set; }
+        //Se dejan las variables con mayuscula para que no haya conflictos con las otras variables
+        public String Nombre { set; get; }
+        public String TipoProducto { set; get; }
+        public String TipoPrecio { set; get; }
+        public int Cantidad { set; get; }
+        public float Precio { set; get; }
     }
 }
